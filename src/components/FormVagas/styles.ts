@@ -1,4 +1,6 @@
-.form {
+import styled from 'styled-components'
+
+export const FormGlobal = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: var(--cor-secundaria);
@@ -7,18 +9,23 @@
   margin-top: 40px;
 }
 
-.btnPesquisar {
-  background-color: var(--cor-principal);
-  border: 1px solid var(--cor-principal);
+
+.campo {
+  padding: 0 16px;
+  outline-color:#a7727d;
+}
+`
+export const BotaoPesqui = styled.button`
+  background-color: #a7727d;
+  border: 1px solid#a7727d;
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
   color: var(--cor-secundaria);
   margin-left: 8px;
   cursor: pointer;
-}
-
-.campo {
+`
+export const Campo = styled.input`
   padding: 0 16px;
-  outline-color: var(--cor-principal);
-}
+  outline-color: #a7727d;
+`
