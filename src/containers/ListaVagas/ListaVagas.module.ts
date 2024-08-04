@@ -1,5 +1,6 @@
-.vagas {
-  display: grid;
+import styled from 'styled-components'
+
+export const VagasUl = styled.ul`display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
@@ -11,3 +12,4 @@
     grid-template-columns: 1fr;
   }
 }
+`

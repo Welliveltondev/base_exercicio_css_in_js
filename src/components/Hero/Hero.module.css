@@ -24,18 +24,11 @@
   color: #eee;
 }
 
-.heroTitle {
-  font-family: Gloock, serif;
-  font-size: 48px;
-}
+
 
 @media (max-width: 768px) {
   .form {
     height: auto;
     padding: 24px 0;
-  }
-
-  .heroTitle {
-    font-size: 32px;
   }
 }
