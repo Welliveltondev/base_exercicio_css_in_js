@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Vagali = styled.li`
-  vaga
     border: 1px solid #a7727d);
     background-color: #f9f5e7;
     color: #a7727d);

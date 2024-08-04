@@ -1,9 +1,8 @@
 
 .btnPesquisar {
-  margin-top: 10px;
   background-color: var(--cor-principal);
   border: 1px solid var(--cor-principal);
-  height: 30px;
+  height: 40px;
   padding: 0 16px;
   font-size: 18px;
   color: var(--cor-secundaria);
