@@ -20,7 +20,7 @@ export const HeroForm = styled.form`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--cor-principal);
+    background-color: #a7727d;
     content: '';
     opacity: 0.7;
   }

@@ -9,7 +9,7 @@ export const Vagali = styled.li`
     border-radius: 8px;
 
     :hover {
-      background-color: var(--cor-principal);
+      background-color:#a7727d;
     }
 
 `
@@ -18,9 +18,8 @@ export const VagaTitulo = styled.h3`
   margin-bottom: 16px;
 `
 export const VagaLink = styled.a`
-  border-color: var(--cor-secundaria);
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
+  border-color: #f9f5e7;
+  background-color: #a7727d;
   display: inline-block;
   padding: 8px 16px;
   text-decoration: none;
@@ -32,11 +31,5 @@ export const VagaLink = styled.a`
 
   @media (max-width: 768px) {
     display: block;
-  }
-
-  :hover a {
-    border-color: var(--cor-principal);
-    background-color: var(--cor-secundaria);
-    color: var(--cor-principal);
   }
 `
