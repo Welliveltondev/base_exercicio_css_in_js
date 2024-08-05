@@ -8,3 +8,20 @@ export const Form = styled.form`
   border-radius: 12px;
   margin-top: 40px;
 `
+
+export const CampoInput = styled.input`
+  padding: 0 16px;
+  outline-color: #a7727d;
+`
+
+export const BtnPesquisar = styled.input`
+  background-color: #a7727d;
+  border: 1px solid #a7727d;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 18px;
+  color: #f9f5e7;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+`
