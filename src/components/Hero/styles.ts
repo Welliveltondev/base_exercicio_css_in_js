@@ -31,9 +31,7 @@ export const HeroTitle = styled.h2`
   font-size: 48px;
 
   @media (max-width: 768px) {
-    .heroTitle {
-      font-size: 32px;
-    }
+    font-size: 32px;
   }
 `
 export const DivContainer = styled.div`
