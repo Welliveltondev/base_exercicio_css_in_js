@@ -9,13 +9,6 @@ export const HeroForm = styled.form`
   display: flex;
   align-items: center;
 
-  @media (max-width: 768px) {
-    height: auto;
-    padding: 24px 0;
-  }
-`
-
-export const Herobefore = styled.div`
   ::before {
     position: absolute;
     top: 0;
@@ -25,6 +18,11 @@ export const Herobefore = styled.div`
     background-color: var(--cor-principal);
     content: '';
     opacity: 0.3;
+  }
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 24px 0;
   }
 `
 
