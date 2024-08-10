@@ -1,6 +1,6 @@
 import { FormEvent, useState } from 'react'
 
-import { BtnPesquisar, CampoInput, Form } from './styles'
+import { Form, BtnPesquisar, CampoInput } from './styles'
 
 type Props = {
   aoPesquisar: (termo: string) => void
